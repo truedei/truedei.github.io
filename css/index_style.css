@@ -38,7 +38,7 @@ body {margin:0 auto;overflow:hidden;}
       opacity: 0.3;
 	}
 .header .top_logo{
-	background-image: url(img/top_logo.png);
+	/*background-image: url(img/top_logo.png);*/
 	margin:0 auto;
 	width:750px;
 	height:200px;
