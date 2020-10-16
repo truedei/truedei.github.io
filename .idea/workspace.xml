@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbdb5383-0ffc-4405-a741-93c6690b9233" name="Default Changelist" comment="" />
+    <list default="true" id="fbdb5383-0ffc-4405-a741-93c6690b9233" name="Default Changelist" comment="上传说明文档">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,23 +57,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\8042965.github.io\css" />
+      <recent name="E:\GitHub\8042965.github.io\js" />
+      <recent name="E:\GitHub\8042965.github.io" />
+      <recent name="E:\GitHub" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GitHub\8042965.github.io\css\TimeIndex" />
       <recent name="E:\GitHub\8042965.github.io\mp3" />
       <recent name="E:\GitHub\8042965.github.io\css\index" />
       <recent name="E:\GitHub\8042965.github.io" />
       <recent name="E:\GitHub\8042965.github.io\css\intro" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GitHub\8042965.github.io\css" />
-      <recent name="E:\GitHub\8042965.github.io\js" />
-      <recent name="E:\GitHub\8042965.github.io" />
-      <recent name="E:\GitHub" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -68,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1560149406807</updated>
       <workItem from="1560149409139" duration="10312000" />
-      <workItem from="1602866388607" duration="310000" />
+      <workItem from="1602866388607" duration="1599000" />
     </task>
     <task id="LOCAL-00001" summary="创建第一个index.html主页">
       <created>1560150726458</created>
@@ -105,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560154319405</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="上传说明文档">
+      <created>1602866773528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602866773528</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +169,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建第一个index.html主页" />
     <MESSAGE value="上传主页" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传主页" />
+    <MESSAGE value="上传说明文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传说明文档" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602866783172">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602866783172" />
   </component>
 </project>
