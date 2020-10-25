@@ -1,4 +1,4 @@
-# 还在加班加点的写着
+# 农乐城项目
 
 > 还在加班加点的写着,可以点中文查看.
 
@@ -17,3 +17,15 @@
 
 **在线API文档：**
 [http://sdgzs.net:8080/doc.html](http://sdgzs.net:8080/doc.html)
+
+
+# SpringBoot+Shiro学习文档
+
+
+**在线文档：**
+[http://localhost:3000/#/en/](http://localhost:3000/#/en/)
+
+
+
+**项目地址：**
+[https://github.com/8042965/springboot-shiro.git](https://github.com/8042965/springboot-shiro.git)
