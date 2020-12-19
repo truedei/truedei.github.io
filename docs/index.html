@@ -27,6 +27,8 @@
 	</svg>
 </a>
 
+
+
 <style>
 	.github-corner:hover .octo-arm {
 		animation: octocat-wave 560ms ease-in-out
@@ -64,7 +66,7 @@
 	<div id="app">加载中...</div>
 	<script>
 		window.$docsify = {
-			name: '郑晖的IT之旅',
+			name: '点我回首页',
 			repo: 'https://github.com/truedei',
 			loadSidebar: true, //开启侧边导航，导航文件在_sidebar.md文件中
 			// repo: 'docsifyjs/docsify',
@@ -77,8 +79,7 @@
 			search: 'auto', // 默认值
 			search: [
 				'/', // => /README.md
-				'/guide', // => /guide.md
-				'/zh-cn/', // => /zh-cn/README.md
+				'/zh-cn/open_source/agriculture/', // => /zh-cn/README.md
 			],
 
 			// 完整配置参数
@@ -89,7 +90,6 @@
 
 				// 支持本地化
 				placeholder: {
-					'/zh-cn/': '搜索',
 					'/': '请输入搜索内容'
 				},
 				noData: '没有您想要的结果，可以联系我尽快添加哦!',
@@ -120,14 +120,58 @@
 				pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
 
 				//配置搜索 结束
-			}
+			},
 
 
+
+		  //复制代码块内容的配置
+		  copyCode: {
+			buttonText : '别拦我，我要复制',
+			errorText  : '哎呀，竟然失败啦，我也不知道为啥',
+			successText: '吆喝，恭喜复制成功'
+		  },
+
+		//Disqus评论系统支持
+		 disqus: 'shortname'
 
 		}
 	</script>
-	<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-	<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+		
+		
+		<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+		
+		<!-- 渲染Java代码 java代码高亮 
+		更多高亮设置在：https://cdn.jsdelivr.net/npm/prismjs@1/components/  网站查找
+		-->
+		<script src="//cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-java.js"></script>
+		
+		<!-- 复制到剪贴板
+			 在所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码 
+			 
+			更详细的说明：https://github.com/jperasmus/docsify-copy-code/blob/master/README.md
+		 -->
+		<script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+		
 
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+		<script>
+		 
+		  
+		  const gitalk = new Gitalk({
+		    clientID: 'd942f93a90580894e4fb',
+		    clientSecret: 'ed75b1a6c4409bc575fef37d06dd2fb17fc733f4',
+		    repo: 'remark',      // The repository of store comments,
+		    owner: 'TrueDei',
+		    admin: ['TrueDei'],
+		    id: location.pathname,      // Ensure uniqueness and length less than 50
+		    distractionFreeMode: false  // Facebook-like distraction free mode
+		  })
+		  
+		  // gitalk.render('gitalk-container')
+		</script>
+		
 	</body>
 </html>
