@@ -11,8 +11,7 @@
           <a href="http://sdgzs.net/admin"  target="_blank">http://sdgzs.net/admin</a>
 
 
-
-**使用手册，教程，BUG反馈，说明书地址:** <a href="https://8042965.github.io/#/zh-cn/"  target="_blank">https://8042965.github.io/#/zh-cn/</a>
+**使用手册，教程，BUG反馈，说明书地址:** <a href="https://truedei.github.io/#/zh-cn/"  target="_blank">https://truedei.github.io/#/zh-cn/</a>
 
 
 **在线API文档：**
@@ -23,9 +22,9 @@
 
 
 **在线文档：**
-[https://8042965.github.io/#/en/](https://8042965.github.io/#/en/)
+[https://truedei.github.io/#/en/](https://truedei.github.io/#/en/)
 
 
 
 **项目地址：**
-[https://github.com/8042965/springboot-shiro.git](https://github.com/8042965/springboot-shiro.git)
+[https://github.com/truedei/springboot-shiro.git](https://github.com/truedei/springboot-shiro.git)
