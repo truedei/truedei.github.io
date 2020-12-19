@@ -5,7 +5,9 @@
 
 windows：
 1、打开cmd命令行
+
 2、进入到此项目的根目录
+
 3、使用`docsify serve docs`进行启动
 
 
