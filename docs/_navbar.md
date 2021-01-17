@@ -29,3 +29,6 @@
 	* [3、商品推荐系统算法（Java）](zh-cn/open_source/recommenderSystem/README.md)
 	* [4、农乐城（电商平台，包含前端后端）](zh-cn/open_source/agriculture/README.md)
 	* [5、Linux监控平台](zh-cn/open_source/Linux_monitor/README.md)
+
+* 开源项目说明书
+  * [truedei-swagger-plugin](zh-cn/truedei-swagger-plugin/README.md)
