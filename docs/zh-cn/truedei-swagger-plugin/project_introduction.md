@@ -361,6 +361,22 @@ code:400
 
 
 
+然后配置好需要扫描的controller层的路径：
+
+```yaml
+#swagger扩展程序需要扫描的路径
+swagger-plugin:
+    scanpath: com.springbootswagger1.controller
+```
+
+
+
+![image-20210117112030696](pic/image-20210117112030696.png)
+
+
+
+
+
 # 测试结果
 
 启动项目，浏览器访问：http://127.0.0.1:8080/doc.html
