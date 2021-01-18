@@ -26,7 +26,18 @@
 
 所以不必引入springfox和swagger-bootstrap-ui的依赖，我已集成好，做到了简化；
 
+**一些配置信息：**
 
+```java
+
+#swagger 配置
+swagger-plugin:
+  #配置要扫描的controller层
+  scan:
+    path: com.glodon.demo.mybatis.controllers
+  #是否开启swagger-plugin框架的debug模式
+  debug: false
+```
 
 
 
@@ -136,7 +147,7 @@ public @interface ApiVersion {
 
 
 
-# 二、配置基本信息
+# 三、配置基本信息
 
 
 
@@ -361,23 +372,38 @@ code:400
 
 
 
+## （四）配置其他信息
+
+
+
+
+
+application.yml文件中：
+
+
+
+
 然后配置好需要扫描的controller层的路径：
 
 ```yaml
-#swagger扩展程序需要扫描的路径
+#swagger 配置
 swagger-plugin:
-    scanpath: com.springbootswagger1.controller
+  #配置要扫描的controller层
+  scan:
+    path: com.springbootswagger1.controllers
+  #是否开启swagger-plugin框架的debug模式
+  debug: false
 ```
 
-
-
-![image-20210117112030696](pic/image-20210117112030696.png)
-
+![image-20210118174157875](pic/image-20210118174157875.png)
 
 
 
 
-# 测试结果
+
+
+
+# 四、测试结果
 
 启动项目，浏览器访问：http://127.0.0.1:8080/doc.html
 
